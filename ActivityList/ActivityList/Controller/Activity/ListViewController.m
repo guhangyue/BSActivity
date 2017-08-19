@@ -31,6 +31,8 @@
 @property (strong, nonatomic) UIActivityIndicatorView *aiv;
 
 - (IBAction)favoAction:(UIButton *)sender forEvent:(UIEvent *)event;
+- (IBAction)switchAction:(UIBarButtonItem *)sender;
+
 
 @end
 
@@ -500,6 +502,12 @@
     }];
     
     }
+}
+
+- (IBAction)switchAction:(UIBarButtonItem *)sender {
+}
+
+- (IBAction)cityAction:(UIButton *)sender forEvent:(UIEvent *)event {
 }
 
 - (IBAction)searchAction:(UIBarButtonItem *)sender {

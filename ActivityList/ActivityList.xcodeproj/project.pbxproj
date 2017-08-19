@@ -53,6 +53,12 @@
 		88EA50301F48057300981C5C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA502E1F48057300981C5C /* ListViewController.m */; };
 		88EA50361F48057B00981C5C /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA50331F48057B00981C5C /* IssueViewController.m */; };
 		88EA50381F48071300981C5C /* Member.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA50371F48071300981C5C /* Member.storyboard */; };
+		88EA503B1F48251E00981C5C /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA503A1F48251E00981C5C /* CityTableViewController.m */; };
+		88EA503E1F4825FE00981C5C /* PurchaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA503D1F4825FE00981C5C /* PurchaceTableViewController.m */; };
+		88EA50411F48266D00981C5C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA50401F48266D00981C5C /* LeftViewController.m */; };
+		88EA50441F4826CA00981C5C /* MyActivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA50431F4826CA00981C5C /* MyActivityTableViewController.m */; };
+		88EA50471F48271000981C5C /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA50461F48271000981C5C /* SignInViewController.m */; };
+		88EA504A1F48274700981C5C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA50491F48274700981C5C /* SignUpViewController.m */; };
 		EB2CAEE25B6CBEBC1D730ACC /* libPods-ActivityList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0ECF4DB11D46BF4484AEBE /* libPods-ActivityList.a */; };
 /* End PBXBuildFile section */
 
@@ -160,6 +166,18 @@
 		88EA50321F48057B00981C5C /* IssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
 		88EA50331F48057B00981C5C /* IssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
 		88EA50371F48071300981C5C /* Member.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Member.storyboard; sourceTree = "<group>"; };
+		88EA50391F48251E00981C5C /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		88EA503A1F48251E00981C5C /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		88EA503C1F4825FE00981C5C /* PurchaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaceTableViewController.h; sourceTree = "<group>"; };
+		88EA503D1F4825FE00981C5C /* PurchaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaceTableViewController.m; sourceTree = "<group>"; };
+		88EA503F1F48266D00981C5C /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		88EA50401F48266D00981C5C /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		88EA50421F4826CA00981C5C /* MyActivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyActivityTableViewController.h; sourceTree = "<group>"; };
+		88EA50431F4826CA00981C5C /* MyActivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyActivityTableViewController.m; sourceTree = "<group>"; };
+		88EA50451F48271000981C5C /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		88EA50461F48271000981C5C /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		88EA50481F48274700981C5C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		88EA50491F48274700981C5C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,6 +439,10 @@
 				88EA502C1F48057300981C5C /* DetailViewController.m */,
 				88EA502D1F48057300981C5C /* ListViewController.h */,
 				88EA502E1F48057300981C5C /* ListViewController.m */,
+				88EA50391F48251E00981C5C /* CityTableViewController.h */,
+				88EA503A1F48251E00981C5C /* CityTableViewController.m */,
+				88EA503C1F4825FE00981C5C /* PurchaceTableViewController.h */,
+				88EA503D1F4825FE00981C5C /* PurchaceTableViewController.m */,
 			);
 			path = Activity;
 			sourceTree = "<group>";
@@ -437,6 +459,10 @@
 		88EA50341F48057B00981C5C /* Member */ = {
 			isa = PBXGroup;
 			children = (
+				88EA503F1F48266D00981C5C /* LeftViewController.h */,
+				88EA50401F48266D00981C5C /* LeftViewController.m */,
+				88EA50421F4826CA00981C5C /* MyActivityTableViewController.h */,
+				88EA50431F4826CA00981C5C /* MyActivityTableViewController.m */,
 			);
 			path = Member;
 			sourceTree = "<group>";
@@ -444,6 +470,10 @@
 		88EA50351F48057B00981C5C /* Sign */ = {
 			isa = PBXGroup;
 			children = (
+				88EA50451F48271000981C5C /* SignInViewController.h */,
+				88EA50461F48271000981C5C /* SignInViewController.m */,
+				88EA50481F48274700981C5C /* SignUpViewController.h */,
+				88EA50491F48274700981C5C /* SignUpViewController.m */,
 			);
 			path = Sign;
 			sourceTree = "<group>";
@@ -642,7 +672,10 @@
 				88EA502F1F48057300981C5C /* DetailViewController.m in Sources */,
 				84CB6DA91F25E05700FE6517 /* ActivityList.xcdatamodeld in Sources */,
 				846C9B5D1F47E9BF002A3F7C /* RSADataSigner.m in Sources */,
+				88EA50441F4826CA00981C5C /* MyActivityTableViewController.m in Sources */,
+				88EA503B1F48251E00981C5C /* CityTableViewController.m in Sources */,
 				8498631E1F28615700FA8EA9 /* ActivityModel.m in Sources */,
+				88EA503E1F4825FE00981C5C /* PurchaceTableViewController.m in Sources */,
 				846C9B5C1F47E9BF002A3F7C /* openssl_wrapper.m in Sources */,
 				846C9B391F47E87E002A3F7C /* JSONS.m in Sources */,
 				84F2C1B81F2EF7AE00881CAB /* ErrorHandler.m in Sources */,
@@ -653,12 +686,15 @@
 				846C9B581F47E9BF002A3F7C /* DataSigner.m in Sources */,
 				846C9B591F47E9BF002A3F7C /* DataVerifier.m in Sources */,
 				84F2C1B71F2EF7AE00881CAB /* AppAPIClient.m in Sources */,
+				88EA50471F48271000981C5C /* SignInViewController.m in Sources */,
 				84F2C1BA1F2EF7AE00881CAB /* NSDate+Utility.m in Sources */,
 				846C9B571F47E9BF002A3F7C /* base64.m in Sources */,
 				846C9B5A1F47E9BF002A3F7C /* MD5DataSigner.m in Sources */,
 				84F2C1BC1F2EF7AE00881CAB /* NSString+Crypt.m in Sources */,
 				84F2C1BF1F2EF7AE00881CAB /* Utilities.m in Sources */,
+				88EA504A1F48274700981C5C /* SignUpViewController.m in Sources */,
 				84CB6D6C1F25DF2100FE6517 /* main.m in Sources */,
+				88EA50411F48266D00981C5C /* LeftViewController.m in Sources */,
 				846C9B5B1F47E9BF002A3F7C /* NSDataEx.m in Sources */,
 				84F2C1BB1F2EF7AE00881CAB /* NSDateFormatter+Category.m in Sources */,
 				846C9B3F1F47E8F1002A3F7C /* Order.m in Sources */,
