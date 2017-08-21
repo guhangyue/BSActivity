@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import <ECSlidingViewController/ECSlidingViewController.h>
 
-@interface AppDelegate ()
+@interface AppDelegate () //<ECSlidingViewControllerDelegate>
 @property (strong,nonatomic)ECSlidingViewController *slidingVC;
 
 @end
@@ -27,6 +27,8 @@
     UINavigationController *navi = [Utilities getStoryboardInstance:@"Main" byIdentity:@"HomeNavi"];
     //创建门框（初始化的同时顺便设置好门框最外层的那扇门  中间的页面）
     _slidingVC = [[ECSlidingViewController alloc] initWithTopViewController:navi];
+    //签协议
+    //_slidingVC.delegate = self;
     //放好左边的那扇门
     _slidingVC.underLeftViewController = [Utilities getStoryboardInstance:@"Member" byIdentity:@"Left"];
     //设置手势(表示让中间的门能够对拖拽与触摸响应)
@@ -45,8 +47,17 @@
         
     return YES;
 }
+//当收到通知后要执行的方法
 -(void)leftSwitchAction: (UITextField *)note{
     NSLog(@"侧滑");
+    //当合上的状态下打开，当打开的状态下合上
+    if (_slidingVC.currentTopViewPosition == ECSlidingViewControllerTopViewPositionCentered) {
+        //当合上的状态下打开
+        [_slidingVC anchorTopViewToRightAnimated:YES];
+    }else{
+        //当打开的状态下合上
+        [_slidingVC resetTopViewAnimated:YES];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
