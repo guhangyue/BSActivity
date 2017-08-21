@@ -47,7 +47,7 @@
         <!--Left View Controller-->
         <scene sceneID="qdm-PW-kw3">
             <objects>
-                <viewController id="ugi-Cq-Nmt" customClass="LeftViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Left" id="ugi-Cq-Nmt" customClass="LeftViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XeK-Mp-rqS"/>
                         <viewControllerLayoutGuide type="bottom" id="X8e-yW-hTa"/>

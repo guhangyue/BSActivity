@@ -33,12 +33,21 @@
     _slidingVC.topViewAnchoredGesture = ECSlidingViewControllerAnchoredGestureTapping | ECSlidingViewControllerAnchoredGesturePanning;
     //把上述手势添加到中间的那扇门
     [navi.view addGestureRecognizer: _slidingVC.panGesture];
+    //设置侧滑动画的执行时间
+    _slidingVC.defaultTransitionDuration=0.28;
+    //设置滑动的幅度（中间那扇门打开的幅度）
+    _slidingVC.anchorRightPeekAmount = UI_SCREEN_W / 6;
     //设置APP入口
     _window.rootViewController = _slidingVC;
-    
+    //注册侧滑按钮的监听
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(leftSwitchAction:) name:@"LeftSwitch" object:nil];
+        
+        
     return YES;
 }
-
+-(void)leftSwitchAction: (UITextField *)note{
+    NSLog(@"侧滑");
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
